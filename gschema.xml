@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.keysound" path="/org/gnome/shell/extensions/keysound/">
+    <key name="enabled" type="b">
+      <default>true</default>
+      <summary>Enable sounds</summary>
+    </key>
+    <key name="volume" type="d">
+      <default>0.5</default>
+      <summary>Sound volume</summary>
+    </key>
+    <key name="sound-style" type="s">
+      <default>"click1"</default>
+      <summary>Selected sound set</summary>
+    </key>
+  </schema>
+</schemalist>
